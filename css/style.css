@@ -1,0 +1,284 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-color: #121B2A;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.wrapper{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+.logo{
+	width: 15%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+    margin: 10px 0 0 0;
+}
+.menu{
+	/*border: 1px solid black;*/
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+    margin: 20px 40px;
+    padding-top: 10px;
+    display: block;
+}
+.menu ul li a:hover{
+	color: #0075B8;
+	/*border: 1px solid;*/
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-color: #121B2A;
+	overflow: hidden;
+	background-image: url(../new.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.text{
+	width: 40%;
+	margin-top: 200px;
+}
+.text h3{
+	padding: 5px;
+    color: #ffffff;
+    font-size: xx-large;
+    font-weight: 300;
+}
+.text h1{
+	padding: 5px;
+    font-weight: 400;
+    color: #0079BD;
+}
+.text p{
+	color: #fff;
+    padding: 5px;
+    font-weight: 200;
+    padding-bottom: 80px;
+}
+.text button{
+    color: #fff;
+    background: transparent;
+    padding: 7px 25px 5px;
+    border-radius: 5px;
+    font-size: 36px;
+    margin-bottom: 60px;
+    cursor: pointer;
+    transition: .5s;
+    border: 2px solid;
+}
+.text button:hover{
+	background-color: #000;
+	border-color: #12389E;
+}
+.text button img{
+    margin-top: 4px;
+    border-radius: 5px;
+}
+/*banner end*/
+/*service start*/
+.services{
+	background-color: #121B2C;
+	overflow: hidden;
+    padding: 50px 0;
+
+}
+.service1{
+    margin: 0px 30px;
+    border-right: 2px solid #545252;
+    padding-right: 50px;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+.service1:last-child{
+    border: none;
+    padding-right: 0;
+}
+.icon_div{
+	/*margin-bottom: 25px;*/
+	overflow: hidden;
+}
+.icons{
+	width:25%;
+	float: left;
+}
+.icons img{
+	width: 80%;
+}
+.icons_ct{
+	overflow: hidden;
+    margin-bottom: 30px;
+}
+.icons_ct h2{
+    padding: 0;
+    color: #FFFFFD;
+    font-weight: 300;
+}
+.icons_ct h3{
+    padding: 0;
+    color: #0177BF;
+    font-weight: 600;
+}
+.icon_text p{
+    color: #FFFFFD;
+    font-weight: 300;
+    font-size: 18px;
+}
+/*service end*/
+/*table start*/
+.table{
+	background-color: #040811;
+	overflow: hidden;
+}
+.wrapper2{
+	width: 80%;
+	margin: 0 auto;
+}
+.section{
+	padding-right: 25px;
+    width: 31%;
+    float: left;
+    overflow: hidden;
+    /*border: 1px solid white;*/
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.section h4{
+	color: #B6B6B8;
+    font-size: 40px;
+}
+.section h5{
+	color: #0274BA;
+    /* float: right; */
+    padding-bottom: 20px;
+    font-size: 25px;
+
+}
+.content{
+
+}
+.content p{
+	color: #B6B6B8;
+    font-size: 18px;
+}
+.image{}
+.image img{}
+.text1{}
+.text1 h2{
+	color: #B6B6B8;
+	font-weight: 400;
+}
+.text1 p{
+	color: #B6B6B8;
+}
+.mobile{
+	width: 35%;
+	float: left;
+	overflow: hidden;
+}
+.mobile img{
+	width: 100%;
+}
+.text2{}
+.text2 h3{
+	color: #DDDFDE;
+    font-size: 35px;
+    padding-left: 150px;
+}
+.text2 h2{
+	color: #0074B7;
+    padding-left: 150px;
+    font-size: 31px
+}
+.app{}
+.app img{  
+ 	padding-top: 15px;
+    padding-left: 35px;
+}
+footer{
+	background-color: #121B2C;
+	overflow: hidden;
+	/*padding-bottom: 55px;*/
+}
+.wrapper3{
+	width: 78%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.xtra{
+	overflow: hidden;
+    width: 66%;
+    float: left;
+}
+.menu1{
+	float: left;
+	overflow: hidden;
+}
+.menu1 ul{
+	float: left;
+}
+.menu1 ul li{
+	list-style: none;
+	float: left;
+}
+.menu1 ul li a{
+	border-right: 1px solid white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+    display: block;
+    transition: .7s;
+    color: white;
+}
+.menu1 ul li:last-child a{
+	/*color: red;*/
+	border: none;
+}
+.menu1 ul li a:hover{
+	color: #0177BD;
+}
+.menu1 p{
+	color: #FFFEFF;
+	padding-left: 15px;
+}
+.copyright{
+	float: left;
+}
+.copyright p{
+    color: white;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.icon1{
+	float: right;
+	width: 31%;
+}
+.icon1 img{
+	width: 100%;
+}
+/*table end*/
